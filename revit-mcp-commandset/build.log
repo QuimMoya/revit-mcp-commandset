@@ -1,0 +1,397 @@
+Build started 14/5/2025 12:25:21.
+Logging verbosity is set to: Detailed.Process = "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe"
+MSBuild executable path = "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe"
+Command line arguments = ""C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64\MSBuild.exe" RevitMCPCommandSet.csproj /fl /flp:logfile=build.log"
+Current directory = "D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset"
+MSBuild version = "17.6.3+07e294721"
+Included response file: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+Assembly loaded during Evaluation: Microsoft.Build.NuGetSdkResolver, Version=6.6.0.61, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\Microsoft.Build.NuGetSdkResolver.dll, MVID: f78bef92-3502-45e0-a065-545f02dae6cd, AppDomain: [Default])
+Assembly loaded during Evaluation: Microsoft.DotNet.MSBuildSdkResolver, Version=7.0.306.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\SdkResolvers\Microsoft.DotNet.MSBuildSdkResolver\Microsoft.DotNet.MSBuildSdkResolver.dll, MVID: d196e102-621a-4c0e-9287-d17a4b7656f0, AppDomain: [Default])
+Assembly loaded during Evaluation: Microsoft.Deployment.DotNet.Releases, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35 (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\SdkResolvers\Microsoft.DotNet.MSBuildSdkResolver\Microsoft.Deployment.DotNet.Releases.dll, MVID: 335cdaa7-b3c2-440d-acfd-ed76d88c2cd6, AppDomain: [Default])
+Resolving SDK 'Microsoft.NET.Sdk'...
+Assembly loaded during Evaluation: System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\System.Collections.Immutable.dll, MVID: 5f9ff90f-0d16-4469-a104-76829d3705e2, AppDomain: [Default])
+Assembly loaded during Evaluation: Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\SdkResolvers\Microsoft.DotNet.MSBuildSdkResolver\Newtonsoft.Json.dll, MVID: f7499511-9334-484f-b6db-6825be2eac0d, AppDomain: [Default])
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+Property reassignment: $(MSBuildProjectExtensionsPath)="D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\obj\" (previous value: "obj\") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Microsoft.Common.props (56,5)
+Assembly loaded during Evaluation: Microsoft.IO.Redist, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.IO.Redist.dll, MVID: d528d43e-4d35-4c28-8aa6-a5ce49a5eba7, AppDomain: [Default])
+Assembly loaded during Evaluation: System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\System.Buffers.dll, MVID: f389ca43-32bf-4e24-ad8c-a6ed5efddff3, AppDomain: [Default])
+Property 'USERPROFILE' with value 'C:\Users\qmoya' expanded from the environment.
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+Property 'VisualStudioVersion' with value '17.0' expanded from the environment.
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem}" (previous value: "{CandidateAssemblyFiles}") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props (82,5)
+Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory}" (previous value: "{CandidateAssemblyFiles};{HintPathFromItem}") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props (83,5)
+Property reassignment: $(AssemblySearchPaths)="{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory};{RawFileName}" (previous value: "{CandidateAssemblyFiles};{HintPathFromItem};{TargetFrameworkDirectory}") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props (84,5)
+Property reassignment: $(PublishAotSupported)="true" (previous value: "false") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.props (120,5)
+Resolving SDK 'Microsoft.NET.SDK.WorkloadAutoImportPropsLocator'...
+Resolving SDK 'Microsoft.DotNet.ILCompiler'...
+Resolving SDK 'Microsoft.NET.ILLink.Tasks'...
+Property reassignment: $(TargetsForTfmSpecificContentInPackage)=";PackTool;_PackProjectToolValidation" (previous value: ";PackTool") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackProjectTool.props (15,5)
+Property reassignment: $(Configurations)="Debug R20;Debug R21;Debug R22;Debug R23;Debug R24;Debug R25" (previous value: "Debug;Release") at D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj (9,9)
+Property reassignment: $(Configurations)="Debug R20;Debug R21;Debug R22;Debug R23;Debug R24;Debug R25;Release R20;Release R21;Release R22;Release R23;Release R24;Release R25" (previous value: "Debug R20;Debug R21;Debug R22;Debug R23;Debug R24;Debug R25") at D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj (10,9)
+Property reassignment: $(PublishProfileImported)="false" (previous value: "true") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.ImportPublishProfile.targets (28,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**" (previous value: ";bin\Debug\/**") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets (233,5)
+Resolving SDK 'Microsoft.NET.SDK.WorkloadManifestTargetsLocator'...
+Property reassignment: $(_FrameworkVersionForImplicitDefine)="0_0" (previous value: "0.0") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.BeforeCommon.targets (185,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(CommandLineArgsForDesignTimeEvaluation)="-langversion:latest -define:TRACE" (previous value: "-langversion:latest") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Roslyn\Microsoft.CSharp.Core.targets (191,5)
+Property reassignment: $(DefineCommonItemSchemas)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (13,5)
+Property reassignment: $(DefineCommonCapabilities)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (14,5)
+Property reassignment: $(DefineCommonReferenceSchemas)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (15,5)
+Property reassignment: $(CollectUpToDateCheckInputDesignTimeDependsOn)="CompileDesignTime;ResolveCodeAnalysisRuleSet" (previous value: "CompileDesignTime") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets (443,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportBefore\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+Assembly loaded during Evaluation: Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll, MVID: fbb0ad21-bf4f-4348-a20a-cfe351e23e51, AppDomain: [Default])
+Property reassignment: $(FrameworkPathOverride)="C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (85,5)
+Property reassignment: $(_DebugSymbolsProduced)="true" (previous value: "false") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (175,5)
+Property reassignment: $(_DocumentationFileProduced)="false" (previous value: "true") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (185,5)
+Property 'DevEnvDir' with value 'C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\' expanded from the environment.
+Property reassignment: $(ProcessorArchitecture)="amd64" (previous value: "x64") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (516,5)
+Property 'MSBuildExtensionsPath64' with value 'C:\Program Files\MSBuild' expanded from the environment.
+Property reassignment: $(DelaySign)="" (previous value: "false") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (568,5)
+Property 'FrameworkDir' with value 'C:\Windows\Microsoft.NET\Framework\' expanded from the environment.
+Property 'LOCALAPPDATA' with value 'C:\Users\qmoya\AppData\Local' expanded from the environment.
+Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Auto" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3789,5)
+Property reassignment: $(_SGenGenerateSerializationAssembliesConfig)="Off" (previous value: "Auto") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (3790,5)
+Property reassignment: $(_TargetsThatPrepareProjectReferences)="
+      AssignProjectConfiguration;
+      _SplitProjectReferencesByFileExistence
+    " (previous value: "_SplitProjectReferencesByFileExistence") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets (4927,5)
+Property reassignment: $(_CodeAnalysisTreatWarningsAsErrors)="false" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (125,5)
+Property reassignment: $(PrepareForRunDependsOn)="
+      CopyFilesToOutputDirectory
+    ;RunCodeAnalysis" (previous value: "
+      CopyFilesToOutputDirectory
+    ") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (167,9)
+Property reassignment: $(PrepareResourcesDependsOn)="
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+     
+    " (previous value: "
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets (35,5)
+Property reassignment: $(PrepareResourcesDependsOn)="
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+     
+    
+    " (previous value: "
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+     
+    ") at C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets (16,5)
+Property reassignment: $(ResolveReferencesDependsOn)="
+      
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ;
+      ResolveTestReferences
+    " (previous value: "
+      BeforeResolveReferences;
+      AssignProjectConfiguration;
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      ResolveNativeReferences;
+      ResolveAssemblyReferences;
+      GenerateBindingRedirects;
+      ResolveComReferences;
+      AfterResolveReferences
+    ") at C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\TeamTest\Microsoft.TeamTest.targets (4,5)
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Trying to import C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.targets\ImportAfter\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+Property reassignment: $(ProjectAssetsCacheFile)="D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\obj\Debug\RevitMCPCommandSet.assets.cache" (previous value: "obj\Debug\RevitMCPCommandSet.assets.cache") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (29,5)
+Property reassignment: $(ResolveAssemblyReferencesDependsOn)="
+      
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;
+      ResolvePackageDependenciesForBuild;
+      _HandlePackageFileConflicts;
+    " (previous value: "
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (80,5)
+Property reassignment: $(PrepareResourcesDependsOn)="
+      ResolvePackageDependenciesForBuild;
+      _HandlePackageFileConflicts;
+      
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+     
+    
+    
+    " (previous value: "
+      ValidationExtension;
+      ExpressionBuildExtension;
+      
+      XamlMarkupCompilePass1;
+      XamlMarkupCompilePass2;
+      
+      ;
+      PrepareResourceNames;
+      ResGen;
+      CompileLicxFiles
+     
+    
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets (86,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**" (previous value: ";bin\Debug\/**;obj\Debug\/**") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (27,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**" (previous value: ";bin\Debug\/**;obj\Debug\/**;bin\/**") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (29,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user" (previous value: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (32,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj" (previous value: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (33,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln" (previous value: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (34,5)
+Property reassignment: $(DefaultItemExcludes)=";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln;**/*.vssscc" (previous value: ";bin\Debug\/**;obj\Debug\/**;bin\/**;obj\/**;**/*.user;**/*.*proj;**/*.sln") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.targets (35,5)
+Property reassignment: $(ResolveAssemblyReferencesDependsOn)="
+      
+      
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;
+      ResolvePackageDependenciesForBuild;
+      _HandlePackageFileConflicts;
+    ;
+      ResolveTargetingPackAssets;
+    " (previous value: "
+      
+      ResolveProjectReferences;
+      FindInvalidProjectReferences;
+      GetFrameworkPaths;
+      GetReferenceAssemblyPaths;
+      PrepareForBuild;
+      ResolveSDKReferences;
+      ExpandSDKReferences;
+    ;
+      ResolvePackageDependenciesForBuild;
+      _HandlePackageFileConflicts;
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets (14,5)
+Property reassignment: $(_GenerateRuntimeConfigurationPropertyInputsCache)="D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\obj\Debug\RevitMCPCommandSet.genruntimeconfig.cache" (previous value: "obj\Debug\RevitMCPCommandSet.genruntimeconfig.cache") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (44,5)
+Property reassignment: $(_DefaultUserProfileRuntimeStorePath)="C:\Users\qmoya" (previous value: "") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (77,5)
+Property reassignment: $(_DefaultUserProfileRuntimeStorePath)="C:\Users\qmoya\.dotnet\store" (previous value: "C:\Users\qmoya") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (78,5)
+Property reassignment: $(CoreBuildDependsOn)="
+      _CheckForBuildWithNoBuild;
+      
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+    ;
+      GenerateBuildDependencyFile;
+      GenerateBuildRuntimeConfigurationFiles
+    " (previous value: "
+      BuildOnlySettings;
+      PrepareForBuild;
+      PreBuildEvent;
+      ResolveReferences;
+      PrepareResources;
+      ResolveKeySource;
+      Compile;
+      ExportWindowsMDFile;
+      UnmanagedUnregistration;
+      GenerateSerializationAssemblies;
+      CreateSatelliteAssemblies;
+      GenerateManifests;
+      GetTargetPath;
+      PrepareForRun;
+      UnmanagedRegistration;
+      IncrementalClean;
+      PostBuildEvent
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (134,5)
+Property reassignment: $(CoreCleanDependsOn)="
+      _SdkBeforeClean;
+      
+    " (previous value: "") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (143,5)
+Property reassignment: $(RebuildDependsOn)="
+      _SdkBeforeRebuild;
+      
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+    
+    " (previous value: "
+      BeforeRebuild;
+      Clean;
+      Build;
+      AfterRebuild;
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (150,5)
+Property reassignment: $(CompileDependsOn)="
+      
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      FindReferenceAssembliesForReferences;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      _GenerateCompileDependencyCache;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ;
+      _CreateAppHost;
+      _CreateComHost;
+      _GetIjwHostPaths;
+    " (previous value: "
+      ResolveReferences;
+      ResolveKeySource;
+      SetWin32ManifestProperties;
+      FindReferenceAssembliesForReferences;
+      _GenerateCompileInputs;
+      BeforeCompile;
+      _TimeStampBeforeCompile;
+      _GenerateCompileDependencyCache;
+      CoreCompile;
+      _TimeStampAfterCompile;
+      AfterCompile;
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (564,5)
+Property reassignment: $(CreateSatelliteAssembliesDependsOn)="
+      
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+    ;
+      CoreGenerateSatelliteAssemblies
+    " (previous value: "
+      _GenerateSatelliteAssemblyInputs;
+      ComputeIntermediateSatelliteAssemblies;
+      GenerateSatelliteAssemblies
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets (950,5)
+Property reassignment: $(DesignerRuntimeImplementationProjectOutputGroupDependsOn)="
+      
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    ;
+      _GenerateDesignerDepsFile;
+      _GenerateDesignerRuntimeConfigFile;
+      GetCopyToOutputDirectoryItems;
+      _GatherDesignerShadowCopyFiles;
+    " (previous value: "
+      ;
+      
+      ;
+      BuildOnlySettings;
+      PrepareForBuild;
+      AssignTargetPaths;
+      ResolveReferences
+    
+    ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DesignerSupport.targets (21,5)
+Property reassignment: $(_ShimInputCacheFile)="D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\obj\Debug\RevitMCPCommandSet.shiminput.cache" (previous value: "obj\Debug\RevitMCPCommandSet.shiminput.cache") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackTool.targets (115,5)
+Property reassignment: $(_ShimCreatedSentinelFile)="D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\obj\Debug\RevitMCPCommandSet.shimcreated.sentinel" (previous value: "obj\Debug\RevitMCPCommandSet.shimcreated.sentinel") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.PackTool.targets (117,5)
+Property reassignment: $(DefineConstants)="TRACE;DEBUG" (previous value: "TRACE") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.CSharp.targets (31,5)
+Property reassignment: $(DefineConstants)="TRACE;DEBUG;_;_0_0;" (previous value: "TRACE;DEBUG") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.CSharp.targets (34,5)
+Property reassignment: $(SupportedOSPlatformVersion)="7.0" (previous value: "") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Windows.targets (44,5)
+Property reassignment: $(TargetPlatformMinVersion)="7.0" (previous value: "") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Windows.targets (45,5)
+Property reassignment: $(PackageDescription)="Package Description" (previous value: "") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets (34,5)
+Property reassignment: $(GenerateNuspecDependsOn)="Build;_LoadPackInputItems; _GetTargetFrameworksOutput; _WalkEachTargetPerFramework; _GetPackageFiles; " (previous value: "_LoadPackInputItems; _GetTargetFrameworksOutput; _WalkEachTargetPerFramework; _GetPackageFiles; ") at C:\Program Files\dotnet\sdk\7.0.306\Sdks\NuGet.Build.Tasks.Pack\build\NuGet.Build.Tasks.Pack.targets (59,5)
+Overriding target "_CheckBrowserWorkloadNeededButNotAvailable" in project "C:\Program Files\dotnet\sdk-manifests\7.0.100\microsoft.net.workload.mono.toolchain.net6\WorkloadManifest.targets" with target "_CheckBrowserWorkloadNeededButNotAvailable" from project "C:\Program Files\dotnet\sdk-manifests\7.0.100\microsoft.net.workload.mono.toolchain.net7\WorkloadManifest.targets".
+Overriding target "_ErrorDisabledWorkload" in project "C:\Program Files\dotnet\sdk-manifests\7.0.100\microsoft.net.workload.mono.toolchain.net6\WorkloadManifest.targets" with target "_ErrorDisabledWorkload" from project "C:\Program Files\dotnet\sdk-manifests\7.0.100\microsoft.net.workload.mono.toolchain.net7\WorkloadManifest.targets".
+Overriding target "ResolveFrameworkReferences" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "ResolveFrameworkReferences" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets".
+Overriding target "GenerateCompiledExpressionsTempFile" in project "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.WorkflowBuildExtensions.targets" with target "GenerateCompiledExpressionsTempFile" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.WorkflowBuildExtensions.targets".
+Overriding target "CollectPackageReferences" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "CollectPackageReferences" from project "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\NuGet\NuGet.targets".
+Overriding target "ResolvePackageDependenciesDesignTime" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "ResolvePackageDependenciesDesignTime" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets".
+Overriding target "CollectSDKReferencesDesignTime" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "CollectSDKReferencesDesignTime" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets".
+Overriding target "CollectResolvedSDKReferencesDesignTime" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\Managed\Microsoft.Managed.DesignTime.targets" with target "CollectResolvedSDKReferencesDesignTime" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.PackageDependencyResolution.targets".
+Overriding target "ResolveFrameworkReferences" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "ResolveFrameworkReferences" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets".
+Overriding target "Run" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "Run" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets".
+Overriding target "GenerateSupportedTargetFrameworkAlias" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GenerateSupportedTargetFrameworkAlias" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.targets".
+Overriding target "DesignerRuntimeImplementationProjectOutputGroup" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "DesignerRuntimeImplementationProjectOutputGroup" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.DesignerSupport.targets".
+Overriding target "Publish" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "Publish" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets".
+Overriding target "ResolveReadyToRunCompilers" in project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.CrossGen.targets" with target "ResolveReadyToRunCompilers" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets".
+Overriding target "GetCopyToPublishDirectoryItems" in project "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" with target "GetCopyToPublishDirectoryItems" from project "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets".
+The target "ClCompile" listed in an AfterTargets attribute at "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VisualStudio\v17.0\CodeAnalysis\Microsoft.CodeAnalysis.targets (450,11)" does not exist in the project, and will be ignored.
+Project "D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj" on node 1 (default targets).
+Target "_CheckForUnsupportedTargetFramework" in file "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets" from project "D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj" (target "_CheckForInvalidConfigurationAndPlatform" depends on it):
+Using "NETSdkError" task from assembly "C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\..\tools\net472\Microsoft.NET.Build.Tasks.dll".
+Task "NETSdkError"
+C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets(92,5): error NETSDK1013: The TargetFramework value '' was not recognized. It may be misspelled. If not, then the TargetFrameworkIdentifier and/or TargetFrameworkVersion properties must be specified explicitly. [D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj]
+Done executing task "NETSdkError" -- FAILED.
+Done building target "_CheckForUnsupportedTargetFramework" in project "RevitMCPCommandSet.csproj" -- FAILED.
+Done Building Project "D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj" (default targets) -- FAILED.
+
+
+Build FAILED.
+
+"D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj" (default target) (1) ->
+(_CheckForUnsupportedTargetFramework target) -> 
+  C:\Program Files\dotnet\sdk\7.0.306\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.TargetFrameworkInference.targets(92,5): error NETSDK1013: The TargetFramework value '' was not recognized. It may be misspelled. If not, then the TargetFrameworkIdentifier and/or TargetFrameworkVersion properties must be specified explicitly. [D:\DEVELOPMENT\MCP\revit-mcp-commandset\revit-mcp-commandset\RevitMCPCommandSet.csproj]
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.67
